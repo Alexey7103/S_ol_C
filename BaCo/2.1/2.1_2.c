@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 int main(){
-	printf("Утверждение");
+ 	printf("Утверждение"); // в скопки ( ) и двайные ковычки " " 
 	return 0;
 }
 
