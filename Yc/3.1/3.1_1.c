@@ -3,12 +3,11 @@
 #include<stdio.h>
 
 int main() {
-	int A = 5;
-	if (A > 3) {
-		printf("Верно");
-	}
+	int A;
+	scanf("%d" ,&A);
+	if (A > 10) {
+		printf("Больше 10");
+	} 
 	return 0;
 } 
-
-// Усложни код
 
