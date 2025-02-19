@@ -1,19 +1,22 @@
-// Усложни
 
 #include<stdio.h>
 
 int main() {
 	int A;
-	scanf("%d" ,&A);
-	printf("итого: %d\n" ,A);
-	if (A < 10) {
-		printf("Ведено число < 10");
+	int B;
+	scanf("%d\n%d" ,&A ,&B);
+	int D = A + B;
+	printf("Итого: %d " ,D);
+	if (D == 20) {
+		printf("Равно");
 	}
-	else if (A > 10) {
-		printf("Ведено число > 10");
+	else if (D > 20) {
+		printf("Больше");
 	}
 	else {
-		printf("Число == 10");
+		printf("Меньше");
 	}
 	return 0;
 } 
+
+
