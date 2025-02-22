@@ -1,11 +1,16 @@
-// Напеши боле иложный
+// Боле иложный
+
 
 #include<stdio.h>
 
 int main() {
-	int A = 30;
-	if (A > 20 && A < 40) {
-		printf("Верно");
+	int A;
+	scanf("%d" ,&A);
+	if (A > 10 && A < 15) {
+		printf("Верно: %d" ,A);
+	}
+	else {
+		printf("Не верно: %d" ,A);
 	}
 	return 0;
 }
