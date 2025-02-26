@@ -1,14 +1,14 @@
-// Усложни.
 
 #include<stdio.h>
 
 int main() {
-	int A = 10;
-	if (A > 5 || A < 1) {
-		printf("%s" ,"Значение больше");
+	int A;
+	scanf("%d" ,&A);
+	if (A == 10 || A < 5) {
+		printf("%s" ,"Верно");
 	}
 	else {
-		printf("%s" ,"Значение не верно");
+		printf("%s" ,"Не верно");
 	}
 	return 0;
 }
