@@ -1,14 +1,18 @@
-// Усложни
 
 #include<stdio.h>
 
 int main() {
-	int A = 5;
-	while ( A < 20 ) {
+	int A;
+	scanf("%d" ,&A);
+	while ( A < 10 ) {
 		printf("%d " ,A);
-		A = A + 4;
+		A++;
+	}
+	if ( A > 10 ) {
+		printf("%s " ,"Больше");
+	}
+	else {
+		printf("%s" ,"Не верно");
 	}
 	return 0;
 }
-
-
