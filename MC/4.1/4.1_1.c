@@ -1,15 +1,18 @@
-// Усложин
 
 #include<stdio.h>
 
 int main() {
-	int A[] = {10, 20, 30};
-	int B = 0;
-	for (int R = 0; R < 3; R++)
-	{ 
-		B += A[R];
+	int A [2] [3] = {
+		{1, 2, 3},
+		{4, 5, 6}
+	};
+	for (int B = 0; B < 2; B++) {
+		for (int R = 0; R < 3; R++) {
+			printf("%d " ,A[B][R]);
+		}
+		printf("\n");
 	}
-	printf("Итого:%d ",B);
 	return 0;
 }
+
 
