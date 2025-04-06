@@ -1,12 +1,13 @@
 #include<stdio.h>
 
-void A (int x, int y)
+int A (int x, int y)
 	{
-		printf ("%d" ,x + y);
+		return (x + y);
 	}
-int main () 
+int main() 
 	{
-		A (5 ,4);
+		int B = A (3 ,4);
+		printf("%d" ,B);
 		return 0;
 	}
 
